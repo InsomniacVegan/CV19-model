@@ -47,9 +47,9 @@ The simulation can then be allowed to run for a given number of days with desire
 The statistics for the simulation are available:
 
 > sim.total_infections
-
+>
 > sim.current_infection_level
-
+>
 > sim.immunity_level
 
 ## Example
