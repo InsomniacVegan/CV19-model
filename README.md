@@ -13,6 +13,7 @@ Basic COVID-19 individual-based model where infection occurs with probability
 P = exp(-I/R_0)
 
 I: intervention level
+
 R_0 : base infection level
 
 Infections last for 10 days with infections granting immunity from reinfection for 365 days.
@@ -46,7 +47,9 @@ The simulation can then be allowed to run for a given number of days with desire
 The statistics for the simulation are available:
 
 > sim.total_infections
+
 > sim.current_infection_level
+
 > sim.immunity_level
 
 ## Example
